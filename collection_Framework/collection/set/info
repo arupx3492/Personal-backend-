@@ -1,0 +1,12 @@
+Set in Java
+The set is an interface available in the java.util package. The set interface extends the Collection interface.
+ An unordered collection or list in which duplicates are not allowed is referred to as a collection interface.
+ The set interface is used to create the mathematical set. The set interface use collection interface's methods to
+ avoid the insertion of the same elements. SortedSet and NavigableSet are two interfaces that extend the set
+ implementation.
+
+                                               Set
+                                               |
+           -----------------------------------------------------------------------------------------------
+           |                       |                           |                                      |
+        EnumSet                  HashSet                   LinkedHashSet                            TreeSet

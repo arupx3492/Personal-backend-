@@ -1,0 +1,2 @@
+Linked HashMap is  a class which extends the HashMap class. Actually in HashMap it does not contain  input order it
+store randomly .In Linked HashMap it follows the input order and store in the basis of it.
