@@ -5,7 +5,7 @@ import java.io.*;
 public class File_Input_Stream {
 
     public static void main(String[] args) throws IOException {
-
+ // this class are used to deal with byte oriented class like image,object,audio,video etc
         FileInputStream fis = new FileInputStream("C:/Users/ARUP MAHATO/Desktop/202-2026612_small.jpg");
         FileOutputStream fos = new FileOutputStream("C:/Users/ARUP MAHATO/Desktop/xfolder/copyImage");
         int i = fis.read();
