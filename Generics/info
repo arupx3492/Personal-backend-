@@ -1,0 +1,68 @@
+Generics:
+=======
+
+--this concept is also introduced in java 1.5v.
+--the main objective of Generics is to achieve type-safety.
+
+--It makes the code stable by detecting the bugs at compile time.
+
+--Generics concept mostly used with collection f/w related classes, but we can
+apply the generics concept without collection f/w also.
+
+Note: Generics concept is not applicable with primitive data types, it supports
+only the objects.
+
+--we can create our own generic classes or generic methods. and that class or
+method can work with any kind of data.
+
+
+adv of generics:
+-------------------
+1.type checking at compile time.
+2.get rid of down-casting problem.
+
+--with this our code will become bug(most of them detected at compile time) free and more stable
+
+Generic method:
+==============
+
+--in the MyGen class example we place get() method inside our generic class
+as a generic method.
+
+--but we can declare a generic method inside a non-generic class also.
+
+
+===============================================================================================================
+with return type:
+----------------------
+
+public static <K,V> V fun2(K k, V v) {
+
+		System.out.println(k+"========"+v);
+
+		return v;
+	}
+
+
+Wildcard in generics:
+=================
+
+--It is mostly used with Collection type parameters inside a method.
+
+--we can not use wildcard with class level.
+
+wildcard is used in 3 ways:
+
+1.upper bound wildcard: -->   ? extends Type
+
+2.lower bound wildcard: ---> ? super Type
+
+3.unbounded wildcard ----> ?
+
+
+unbounded wildcard:
+---------------------------
+
+public  void fun1(List<?> list){
+
+}

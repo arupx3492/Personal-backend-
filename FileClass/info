@@ -1,0 +1,13 @@
+Some of the methods of the File class:
+Method name Description
+boolean exist() - Tests whether the file or directory exists.
+boolean createNewFile()  -- throws IOException Atomically creates a new, empty file.
+boolean mkdir() - Creates the directory/folder.
+boolean isFile() ----Tests whether the file denoted by this is a normal file.
+boolean isDirectory() Tests whether the file denoted by this is a directory/folder.
+long length(); Returns the length of the file(how many characters are there)
+String[] list()--list out all the files and folders present in the
+specified directory in the form of String array (only the file name without the path).
+File[] listFiles() list out all the files and folders present in the specified directory in the form of File array (file names with the full path).
+String getName() return the name of the file.
+String getParent() It returns the pathname string of this pathname's parent, or null if this pathname does not name a parent directory
