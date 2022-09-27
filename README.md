@@ -12,6 +12,6 @@
 
 ----------------------------------------
 
-<img src="https://cutewallpaper.org/27/blue-and-white-wallpaper-gif/pixel-art-gif-wallpaper-gambar-wallpaper-keren.gif" width=100% height=450px alt="">
+<img src="https://i.redd.it/a0ez44uhhx911.jpg" width=100% height=450px alt="">
 
 # Thank You For Visiting.
